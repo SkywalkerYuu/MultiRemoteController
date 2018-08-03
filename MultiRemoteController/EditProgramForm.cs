@@ -45,8 +45,6 @@ namespace MultiRemoteController
 
         private void btn_Cancel_Click(object sender, EventArgs e)
         {
-            // TODO: Confirm cancel operation.
-            // If there are information in the textbox, then show a messagebox to ask user to confirm it
             this.Close();
         }
 

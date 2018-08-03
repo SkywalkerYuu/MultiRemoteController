@@ -605,7 +605,7 @@ namespace MultiRemoteController
             DialogResult dr = remoteConfigForm.ShowDialog();
             if(dr == DialogResult.OK)
             {
-                // TODO: Set current config
+                mCurConfig = XMLOperator.GetConfigs();
             }
             if(dr == DialogResult.Cancel)
             {
@@ -619,7 +619,7 @@ namespace MultiRemoteController
             DialogResult dr = startupConfigForm.ShowDialog();
             if(dr == DialogResult.OK)
             {
-                // TODO: Set current config
+                mCurConfig = XMLOperator.GetConfigs();
             }
             if(dr == DialogResult.Cancel)
             {
